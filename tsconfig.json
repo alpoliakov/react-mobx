@@ -1,18 +1,22 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2020",
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es2015"
     ],
     "allowJs": true,
     "skipLibCheck": true,
+    "strictNullChecks": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
